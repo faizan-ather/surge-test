@@ -38,4 +38,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploy website on surge
-        run: surge ./ debonair-organization.surge.sh --token ${{secrets.token}}
+        run: surge ./ debonair-organization.surge.sh --token ${{secrets.FAIZAN}}
